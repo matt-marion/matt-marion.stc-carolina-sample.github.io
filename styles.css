@@ -1,0 +1,155 @@
+html {
+    background: rgb(41 42 54);
+  }
+  
+  #main-doc {
+    margin-left: 275px;
+    padding-top: 12px;
+    max-width: 700px;
+  }
+  
+  * {
+    color: rgb(230 232 251);
+    font-family: noto-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+  }
+  
+ header {
+    font-size: 32px;
+    font-weight: 300;
+    font-style: normal;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+  }
+
+  .main-section {
+    margin-bottom: 75px;
+  }
+ 
+  #navbar > header {
+    text-align: center;
+   padding-bottom: 25px;
+    font-size: 25px;
+    font-weight: 20;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 0;
+  }
+  
+  #navbar {
+  height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-color: GhostWhite;
+    background: rgb(41 42 54);
+    
+  }
+
+  .nav-link {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 20;
+    display: block;
+    transition: 0.3s;
+    border-style: none;
+  }
+  
+  a:hover {
+   background: white;
+   color: black;
+  }
+  
+  #title {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    }
+
+#media-button {
+    width: 80px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#library-button {
+    width: 60px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.main-section, p {
+    font-size: 16px;
+  }
+
+img {
+    width: 700px;
+    height: auto;
+}
+
+#add-new-button, #second-edit-image, #visit-site-button, #url-to-clipboard {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#home-button, #gear-icon, #green-check {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#toolbar {
+   height: 26px; 
+}
+
+#unfinished-awards {
+    height: auto;
+}
+
+#finished-code {
+    height: 20px;
+}
+
+#exit-visual-builder {
+    height: auto;
+    width: auto;
+}
+
+#url-to-clipboard {
+    width: auto;
+}
+
+h2 {
+    text-indent: 25px;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    margin-right: 400px;
+}
+
+#part-1 {
+    margin-bottom: -20px;
+}
+
+#editing-an-image {
+    margin-bottom: -20px;
+}

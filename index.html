@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Adding an Image Using WordPress Visual Builder</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+  <main id="main-doc">
+      <header id="title">Adding and Editing an Image in WordPress</header>
+    <section id="introduction" class="main-section">
+      <header>Introduction</header>
+      <p class="text">Adding an image to your <a href="https://wordpress.org/" target="_blank">WordPress</a> website is as simple as ever. This guide shows the user how to successfully upload, edit, and integrate an image using the WordPress Visual Builder tool.</p>
+      <p class="text">
+        The example used in this guide shows how to add a new award badge to the homepage of the Society for Technical Communication(STC)-Carolina chapter's website.
+      </p>
+      <h2>WordPress</h2>
+      <p class="background">
+        WordPress is a popular option for creating your own website due to their open-source content management system (CMS). The CMS provides a plugin architecture that makes it simple to design a website, as you'll see in this guide.  
+      </p>
+      <h2>Visual Builder</h2>
+      <p class="background">
+      The Visual Builder is the CMS editor tool that allows users to create and edit web content for their blog, business, or personal website. 
+      </p>
+    
+    </section>
+    <section id="getting-started" class="main-section">
+      <header>Getting Started</header>
+      <p class="text">
+        To get started, log in to your WordPress account. Once logged in, you'll be redirected to your Dashboard. On the left side of the screen, in the navigation menu, hover over <img id="media-button" 
+        src="/Screenshots/media-button.png"/>, and select   <img id="library-button" src="/Screenshots/library-button.png"/>.
+      </p>
+      <img id="dashboard" src="Screenshots/dashboard.png" alt="stc-carolina dashboard" /> 
+    </section>
+    <section id="header-media-library" class="main-section">
+      <header>Media Library</header>
+      <p class="text">
+        The Media Library allows you to upload a new image or choose from one in the existing library.<br>By clicking the <img id="add-new-button" src="/Screenshots/add-new-button.png"/> button, a file upload window appears. 
+      </p>
+      <img id="media-library" src="Screenshots/media-library.png" alt="media-library" />
+      <p class="text">
+        You can also choose an image in your existing WordPress library by simply clicking one of the thumbnails.
+      </p>
+    </section>
+    <section id="editing-an-image" class="main-section">
+      <header>Editing an Image</header>
+      <p class="text">Before editing, we can alter the metadata of the image. Click the <img src="/Screenshots/url-to-clipboard.png" alt="url to clipboard button" id="url-to-clipboard"/> button. We'll use the image URL as our src atttribute in the Visual Builder later.<br>Now, click<img src="/Screenshots/second-edit-image.png" id="second-edit-image"/>to continue. </p>
+      <img src="/Screenshots/copy-image-url.png" alt="copy image url" id="copy-image-url"/>
+      <h2>Changing the Size</h2>
+      <p class="text">
+         This page allows you to change various elements, including the aspect ratio to ensure your image fits the way you need it to on your website.
+      </p>
+      <img src="/Screenshots/final-edit-image.png" id="final-edit-image"/>
+      <p class="text">
+        When you're satisfied with your changes, click the save button beneath the image and close the window.
+      </p>
+    </section>
+    <section id="wordpress-builder" class="main-section">
+      <header>The Visual Builder</header>
+      <p class="text">
+        Now it's time to add the image to your website. In the top left corner of the page, you will see a home icon, followed by the name of your site. Hover over the home icon <img src="Screenshots/home-button.png" alt="home-button" id="home-button"/> and click the <img src="/Screenshots/visit-site-button2.png" id="visit-site-button" alt="visit site button" /> button when it appears.
+      </p>
+      <img src="/Screenshots/left-corner.png" id="left-corner" alt="left-corner" />
+      <p class="text"></p>
+      <h2>Sections and Modules</h2>
+      <p class="text">
+        The link takes you to your website, but this time there's a toolbar at the top of the page. 
+      </p>
+      <p class="text">
+        The WordPress web builder toolbar serves as a resource hub while you manage your website. To begin adding an image, we need to enable editing on the page. Click on the Enable Visual Builder button to get started.
+      </p>
+      <img src="/Screenshots/toolbar.png" alt="toolbar" id="toolbar"/>
+      <p class="text">
+        For this example, we're updating the Awards section for the STC-Carolina homepage. In the WordPress Visual Builder tool, you can view and manage all the separate sections on the page. Within a section you can nest modules of different types of content.  
+      </p>
+      <p class="text">The module in this example is used to organize the award badge images for STC-Carolina. By clicking in on one of the award badges, the grey module menu pops up.</p>
+      <p class="text">Click the gear icon<img src="/Screenshots/gear-icon.png" alt="gear icon" id="gear-icon"/> so we can add our image in code.</p>
+      <img src="/Screenshots/unfinished-awards.png" id="unfinished-awards" alt="unfinished-awards"/>
+    </section>
+    <section id="adding-image" class="main-section">
+      <header>Adding an Image</header>
+      <p class="text">
+        The module settings menu presents you with a wide variety of web-editing options. The structural elements such as the <code>img</code> elements below are added and edited in this Content tab. The design and styling of the elements are added in the Design and Advanced tabs.  
+      </p>
+      <img src="/Screenshots/unfinished-code.png" id="unfinished-code" alt="unfinished code"/>
+      <p class="text">
+        To add the award badge selected from the Media Library, paste the URL of the image copied to the clipboard from the <a href="#editing-an-image">Editing an Image</a> step. Wrap the URL in the same HTML format as the other award badges.
+      </p>
+      <img src="/Screenshots/finished-code.png" alt="finished code" id="finished-code"/>
+      <p class="text">
+        Save your work with the green check icon <img src="/Screenshots/green-check.png" alt="green check" id="green-check"/>
+      </p>
+      <img src="/Screenshots/final-product.png" alt="final product" id="final-product"/>
+      <p class="text">And with that, your work is finished. The Visual Builder has a default styling that arranges the images in rows, but you can use the module settings menu to alter the styles. <br>To save your work and exit, click <img src="Screenshots/exit-visual-builder.png" alt="exit visual builder button" id="exit-visual-builder"/> at the top of the page.</p>
+    </section>
+    <nav id="navbar">
+      <header>Contents</header>
+      <a class="nav-link" href="#introduction">Introduction</a>
+      <a class="nav-link" href="#getting-started">Getting Started</a>
+      <a class="nav-link" href="#header-media-library">Media Library</a>
+      <a class="nav-link" href="#editing-an-image">Editing an Image</a>
+      <a class="nav-link" href="#wordpress-builder">The Visual Builder</a>
+      <a class="nav-link" href="#adding-image">Adding an Image</a>
+    </nav>
+  </main>
+</html>
